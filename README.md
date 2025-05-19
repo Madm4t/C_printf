@@ -9,7 +9,7 @@ A reimplementation of the standard C `printf()` function.
 - [Features](#features)  
 - [Installation](#installation)  
 - [Usage](#usage)  
-- [Examples](#examples)  
+- [Example](#example)  
 
 ## About
 
@@ -56,7 +56,7 @@ This will produce libftprintf.a
    ```bash
    ft_printf("Hello, %s! You have %d new messages.\n", username, message_count);
 
-Example main.c:
+## Example
    ```bash
 #include "ft_printf.h"
 
