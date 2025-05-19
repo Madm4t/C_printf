@@ -57,7 +57,7 @@ This will produce libftprintf.a
    ft_printf("Hello, %s! You have %d new messages.\n", username, message_count);
 
 ## Example
-   ```bash
+```c
 #include "ft_printf.h"
 
 int main(void)
@@ -67,5 +67,5 @@ int main(void)
     ft_printf("Hello, %s! The answer is %d (hex: %#x)\n", str, n, n);
     return 0;
 }
-
+```
 
